@@ -1,10 +1,10 @@
 # 1.Вывести треугольник  с шириной N с помощью цикла while
 
-a = int(input('Enter a value for the width of the triangle: '))
-counter = a        
+N = int(input('Enter a value for the width of the triangle: '))
+counter = N        
 
 while True:
-    if 0 < counter <= a:
+    if 0 < counter <= N:
         counter = counter-1
         res = ('*'*counter+'*')
         print(res)
